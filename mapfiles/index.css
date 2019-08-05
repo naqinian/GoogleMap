@@ -1,0 +1,46 @@
+*{
+	padding: 0;
+	margin: 0;
+	
+}
+.clear:after {
+    content: "";
+    display: block;
+    clear: both;
+}
+.switch{
+	width: 100%;
+	height: auto;
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	z-index: 999;
+}
+.switch ul{
+	float: right;
+	list-style: none;
+	margin-right: 10px;
+	margin-top: 10px;
+	box-shadow: rgba(0, 0, 0, 0.2) 0px 4px 16px;
+	border: 1px solid #e0e0e0;
+	background-color: #FFFFFF;
+	color: #000;
+}
+.switch ul li{
+	float: left;
+}
+.switch ul li .btn_switch{
+	font-size: 14px;
+	padding: 1.6px 6px;
+}
+.switch ul li .btn_switch:hover{
+	cursor: pointer;
+	
+}
+.selected{
+	color: #FFFFFF;
+	background-color: #83aff9;
+}
+.gm-style-cc{
+	display: none;
+}
